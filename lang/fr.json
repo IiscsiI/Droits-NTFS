@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "language": "Français",
+    "code": "fr",
+    "direction": "ltr"
+  },
+  "ui": {
+    "title": "Audit des Permissions NTFS",
+    "generatedOn": "Généré le",
+    "rootPath": "Racine analysée",
+    "loading": "Chargement des données d'audit...",
+    "error": "Erreur lors du chargement des données."
+  },
+  "filters": {
+    "title": "Filtres de recherche",
+    "selectUser": "Sélectionner un utilisateur",
+    "allUsers": "-- Tous les utilisateurs --",
+    "searchUser": "Ou rechercher (saisie libre)",
+    "userPlaceholder": "Ex: DOMAINE\\utilisateur",
+    "path": "Chemin",
+    "pathPlaceholder": "Ex: Finance",
+    "permissionType": "Type de permission",
+    "allPermissions": "Toutes",
+    "apply": "🔍 Appliquer les filtres",
+    "reset": "↻ Réinitialiser",
+    "export": "📥 Exporter (CSV)"
+  },
+  "stats": {
+    "foldersAnalyzed": "Dossiers analysés",
+    "uniqueUsers": "Utilisateurs uniques",
+    "accessErrors": "Erreurs d'accès",
+    "visibleResults": "Résultats visibles"
+  },
+  "tree": {
+    "title": "Arborescence des permissions",
+    "expandAll": "📂 Tout développer",
+    "collapseAll": "📁 Tout réduire",
+    "folder": "Dossier",
+    "usersGroups": "Utilisateurs / Groupes",
+    "owner": "Propriétaire",
+    "lastModified": "Dernière modification",
+    "moreUsers": "+{count} autres",
+    "clickForDetails": "Cliquez sur le dossier pour voir tous les détails"
+  },
+  "permissions": {
+    "fullControl": "Contrôle total",
+    "modify": "Modification",
+    "readExecute": "Lecture et exécution",
+    "read": "Lecture",
+    "write": "Écriture"
+  },
+  "inheritance": {
+    "containerInherit": "Héritage conteneurs",
+    "objectInherit": "Héritage objets",
+    "containerObjectInherit": "Héritage complet",
+    "none": "Aucun",
+    "noPropagateInherit": "Sans propagation",
+    "inheritOnly": "Héritage uniquement"
+  },
+  "accessTypes": {
+    "allow": "Autoriser",
+    "deny": "Refuser"
+  },
+  "csv": {
+    "headers": {
+      "path": "Chemin",
+      "owner": "Propriétaire",
+      "user": "Utilisateur",
+      "permission": "Permission",
+      "type": "Type",
+      "inherited": "Hérité",
+      "lastModified": "Dernière modification"
+    },
+    "values": {
+      "yes": "Oui",
+      "no": "Non"
+    }
+  },
+  "details": {
+    "title": "📁 Détails des permissions",
+    "close": "✖ Fermer",
+    "generalInfo": "📋 Informations générales",
+    "owner": "Propriétaire",
+    "lastModified": "Dernière modification",
+    "inheritance": "Héritage",
+    "inheritanceEnabled": "✓ Activé",
+    "inheritanceDisabled": "✗ Désactivé",
+    "state": "État",
+    "accessible": "✓ Accessible",
+    "accessError": "✗ Erreur d'accès",
+    "errorMessage": "Message d'erreur",
+    "unknownError": "Erreur inconnue",
+    "explicitPermissions": "🔐 Permissions explicites",
+    "inheritedPermissions": "👥 Permissions héritées",
+    "userGroup": "Utilisateur/Groupe",
+    "rights": "Droits",
+    "type": "Type",
+    "allow": "Autoriser",
+    "deny": "Refuser",
+    "inheritanceCol": "Héritage",
+    "propagation": "Propagation",
+    "summary": "📊 Résumé des droits effectifs",
+    "summaryText": "Ce dossier contient <strong>{total}</strong> entrées de permissions au total, affectant <strong>{users}</strong> utilisateurs/groupes distincts.",
+    "inheritanceWarning": "⚠️ L'héritage est désactivé sur ce dossier."
+  },
+  "messages": {
+    "noResults": "Aucun résultat ne correspond aux critères de recherche.",
+    "usersFound": "({count} trouvés)",
+    "exportError": "Erreur lors de l'export du fichier CSV"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "language": "English",
+    "code": "en",
+    "direction": "ltr"
+  },
+  "ui": {
+    "title": "NTFS Permissions Audit",
+    "generatedOn": "Generated on",
+    "rootPath": "Root path analyzed",
+    "loading": "Loading audit data...",
+    "error": "Error loading data."
+  },
+  "filters": {
+    "title": "Search Filters",
+    "selectUser": "Select a user",
+    "allUsers": "-- All users --",
+    "searchUser": "Or search (free text)",
+    "userPlaceholder": "E.g: DOMAIN\\user",
+    "path": "Path",
+    "pathPlaceholder": "E.g: Finance",
+    "permissionType": "Permission type",
+    "allPermissions": "All",
+    "apply": "🔍 Apply filters",
+    "reset": "↻ Reset",
+    "export": "📥 Export (CSV)"
+  },
+  "stats": {
+    "foldersAnalyzed": "Folders analyzed",
+    "uniqueUsers": "Unique users",
+    "accessErrors": "Access errors",
+    "visibleResults": "Visible results"
+  },
+  "tree": {
+    "title": "Permissions Tree",
+    "expandAll": "📂 Expand all",
+    "collapseAll": "📁 Collapse all",
+    "folder": "Folder",
+    "usersGroups": "Users / Groups",
+    "owner": "Owner",
+    "lastModified": "Last modified",
+    "moreUsers": "+{count} others",
+    "clickForDetails": "Click on folder to see all details"
+  },
+  "permissions": {
+    "fullControl": "Full Control",
+    "modify": "Modify",
+    "readExecute": "Read & Execute",
+    "read": "Read",
+    "write": "Write"
+  },
+  "inheritance": {
+    "containerInherit": "Container Inherit",
+    "objectInherit": "Object Inherit",
+    "containerObjectInherit": "Full Inheritance",
+    "none": "None",
+    "noPropagateInherit": "No Propagate",
+    "inheritOnly": "Inherit Only"
+  },
+  "accessTypes": {
+    "allow": "Allow",
+    "deny": "Deny"
+  },
+  "csv": {
+    "headers": {
+      "path": "Path",
+      "owner": "Owner",
+      "user": "User",
+      "permission": "Permission",
+      "type": "Type",
+      "inherited": "Inherited",
+      "lastModified": "Last Modified"
+    },
+    "values": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "details": {
+    "title": "📁 Permission Details",
+    "close": "✖ Close",
+    "generalInfo": "📋 General Information",
+    "owner": "Owner",
+    "lastModified": "Last modified",
+    "inheritance": "Inheritance",
+    "inheritanceEnabled": "✓ Enabled",
+    "inheritanceDisabled": "✗ Disabled",
+    "state": "State",
+    "accessible": "✓ Accessible",
+    "accessError": "✗ Access error",
+    "errorMessage": "Error message",
+    "unknownError": "Unknown error",
+    "explicitPermissions": "🔐 Explicit Permissions",
+    "inheritedPermissions": "👥 Inherited Permissions",
+    "userGroup": "User/Group",
+    "rights": "Rights",
+    "type": "Type",
+    "allow": "Allow",
+    "deny": "Deny",
+    "inheritanceCol": "Inheritance",
+    "propagation": "Propagation",
+    "summary": "📊 Effective Rights Summary",
+    "summaryText": "This folder contains <strong>{total}</strong> permission entries in total, affecting <strong>{users}</strong> distinct users/groups.",
+    "inheritanceWarning": "⚠️ Inheritance is disabled on this folder."
+  },
+  "messages": {
+    "noResults": "No results match the search criteria.",
+    "usersFound": "({count} found)",
+    "exportError": "Error exporting CSV file"
+  }
+}
